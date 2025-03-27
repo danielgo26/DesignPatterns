@@ -1,0 +1,41 @@
+﻿  AppManager.cpp
+  CapitalizeTransformation.cpp
+  CenzoreTransformation.cpp
+  CenzoreTransformationFactory.cpp
+  CompositeTransformation.cpp
+  CustomLabel.cpp
+  CyclingTransformationDecorator.cpp
+  DecorateTransformation.cpp
+  HelpLabel.cpp
+  Label.cpp
+  LabelContainer.cpp
+D:\SU Materials\Year_2\Sem_1\Design_Patterns\Project2\Project2\Project2\LabelContainer.cpp(7,22): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  LabelDecoratorBase.cpp
+  LabelFactory.cpp
+  LabelImplementationFactory.cpp
+  PrintManager.cpp
+  LeftTrimTransformation.cpp
+  NormalizeSpaceTransformation.cpp
+D:\SU Materials\Year_2\Sem_1\Design_Patterns\Project2\Project2\Project2\NormalizeSpaceTransformation.cpp(8,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Project2.cpp
+  RandomTransformationDecorator.cpp
+D:\SU Materials\Year_2\Sem_1\Design_Patterns\Project2\Project2\Project2\RandomTransformationDecorator.cpp(19,77): warning C4244: 'argument': conversion from 'unsigned __int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+D:\SU Materials\Year_2\Sem_1\Design_Patterns\Project2\Project2\Project2\RandomTransformationDecorator.cpp(20,41): warning C4244: 'initializing': conversion from 'double' to 'size_t', possible loss of data
+  ReplaceTransformation.cpp
+  Generating Code...
+D:\SU Materials\Year_2\Sem_1\Design_Patterns\Project2\Project2\Project2\LabelContainer.cpp(30): warning C4172: returning address of local variable or temporary
+  Compiling...
+  RichLabel.cpp
+  RightTrimTransformation.cpp
+  SimpleLabel.cpp
+  TextTransformationContainer.cpp
+D:\SU Materials\Year_2\Sem_1\Design_Patterns\Project2\Project2\Project2\TextTransformationContainer.cpp(8,31): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  TextTransformationDecorator.cpp
+  TextTransformationFactory.cpp
+  Generating Code...
+D:\SU Materials\Year_2\Sem_1\Design_Patterns\Project2\Project2\Project2\TextTransformationContainer.cpp(27): warning C4172: returning address of local variable or temporary
+  Project2.vcxproj -> D:\SU Materials\Year_2\Sem_1\Design_Patterns\Project2\Project2\x64\Debug\Project2.exe
