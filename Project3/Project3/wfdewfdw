@@ -1,0 +1,13 @@
+Folder: Example
+Folder: Example\AnotherExample
+Folder: Example\AnotherExample\InnerOne
+Folder: Example\AnotherExample\InnerOne\AnotherInnerOne
+Example\AnotherExample\InnerOne\AnotherInnerOne\AnotherExampleShortcut.lnk (hash: d20caec3b48a1eef164cb4ca81ba2587)
+Example\AnotherExample\Visual Studio 2022 (2).lnk (hash: d20caec3b48a1eef164cb4ca81ba2587)
+Example\Firefox.lnk (hash: d20caec3b48a1eef164cb4ca81ba2587)
+Example\First.txt (hash: d36f6611a67e9502baf3481c6de596de)
+Example\FirstShortcut1.lnk (hash: d20caec3b48a1eef164cb4ca81ba2587)
+Example\LinkTo - Shortcut.lnk (hash: d20caec3b48a1eef164cb4ca81ba2587)
+Folder: Example\MyLink4.symlink
+Example\MyLinkToFile.symlink (hash: a167f7b5da223c9bd44a5203671db399)
+Example\MyLinkToFile2.symlink (hash: 785039f0f3a7889ffccbfe56f3e6d66a)

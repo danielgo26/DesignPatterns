@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DirectoryHierarchy">
+      <UniqueIdentifier>{94182901-2696-459e-8961-c35f136f0264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DirectoryHierarchy">
+      <UniqueIdentifier>{1499adfc-2727-47d8-8ef9-9a36b112c483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChecksumCalculators">
+      <UniqueIdentifier>{09d90c98-8f5c-4f77-8ee7-c5940f37bd62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChecksumCalculators">
+      <UniqueIdentifier>{c61fc7bc-f3ae-4110-8440-1eb9fec0de3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChecksumCalculators\HashingAlgorithms">
+      <UniqueIdentifier>{10c8c20a-c020-442e-9ec1-0198415286e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChecksumCalculators\HashingAlgorithms">
+      <UniqueIdentifier>{d17aeaa4-8bb5-45c0-8d7a-f3be079d6e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Builders">
+      <UniqueIdentifier>{c53a348e-d606-4845-adb5-b732d2b7aa96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Builders">
+      <UniqueIdentifier>{8adfd140-4c7a-4762-9905-9f06245e73af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visitors">
+      <UniqueIdentifier>{58124f13-35f7-4c1c-9fd3-2f0906e17b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visitors">
+      <UniqueIdentifier>{fd926978-3085-4436-841e-9ce78a7cf291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileOperators">
+      <UniqueIdentifier>{3c0a43f3-aaff-4bc7-9d8e-981997d751b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileOperators">
+      <UniqueIdentifier>{ed16a6ca-6e52-4a13-a720-47750e2f9f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Observers">
+      <UniqueIdentifier>{b54fe49a-4160-4c8d-927b-0a108a2523c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Observers">
+      <UniqueIdentifier>{32e105b1-c553-4d62-854d-d44247bc14c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UserInterface">
+      <UniqueIdentifier>{c6efda9a-c561-4b4e-b7b5-8001044cb052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UserInterface">
+      <UniqueIdentifier>{bc1259b4-3560-4b9f-b8f4-8fc815452b50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Directory.cpp">
+      <Filter>Source Files\DirectoryHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="FileNode.cpp">
+      <Filter>Source Files\DirectoryHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderNode.cpp">
+      <Filter>Source Files\DirectoryHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>Source Files\ChecksumCalculators\HashingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="SHA256.cpp">
+      <Filter>Source Files\ChecksumCalculators\HashingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="BuilderBase.cpp">
+      <Filter>Source Files\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="BuilderWithLinksFollowing.cpp">
+      <Filter>Source Files\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="BuilderWithoutLinksFollowing.cpp">
+      <Filter>Source Files\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="HashGenerator.cpp">
+      <Filter>Source Files\Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportGenerator.cpp">
+      <Filter>Source Files\Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratorBase.cpp">
+      <Filter>Source Files\Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="FileNodeOperator.cpp">
+      <Filter>Source Files\FileOperators</Filter>
+    </ClCompile>
+    <ClCompile Include="Observable.cpp">
+      <Filter>Source Files\Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressReporter.cpp">
+      <Filter>Source Files\Observers</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportFileOperator.cpp">
+      <Filter>Source Files\FileOperators</Filter>
+    </ClCompile>
+    <ClCompile Include="HashFileOperator.cpp">
+      <Filter>Source Files\FileOperators</Filter>
+    </ClCompile>
+    <ClCompile Include="ChecksumCalculator.cpp">
+      <Filter>Source Files\ChecksumCalculators</Filter>
+    </ClCompile>
+    <ClCompile Include="ChecksumManager.cpp">
+      <Filter>Source Files\UserInterface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Directory.h">
+      <Filter>Header Files\DirectoryHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="FileNode.h">
+      <Filter>Header Files\DirectoryHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderNode.h">
+      <Filter>Header Files\DirectoryHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="ChecksumCalculator.h">
+      <Filter>Header Files\ChecksumCalculators</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>Header Files\ChecksumCalculators\HashingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SHA256.h">
+      <Filter>Header Files\ChecksumCalculators\HashingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="BuilderBase.h">
+      <Filter>Header Files\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="BuilderWithoutLinksFollowing.h">
+      <Filter>Header Files\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="BuilderWithLinksFollowing.h">
+      <Filter>Header Files\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorBase.h">
+      <Filter>Header Files\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="HashGenerator.h">
+      <Filter>Header Files\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportGenerator.h">
+      <Filter>Header Files\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="FileNodeOperator.h">
+      <Filter>Header Files\FileOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="Observable.h">
+      <Filter>Header Files\Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files\Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressReporter.h">
+      <Filter>Header Files\Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Header Files\Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportFileOperator.h">
+      <Filter>Header Files\FileOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="HashFileOperator.h">
+      <Filter>Header Files\FileOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="HashAlgorithmBase.h">
+      <Filter>Header Files\ChecksumCalculators\HashingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="ChecksumManager.h">
+      <Filter>Header Files\UserInterface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
