@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\LabelsHierarchy">
+      <UniqueIdentifier>{5b0dc88d-edfa-436c-ae10-526c3e9961cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DecoratorsHierarchy">
+      <UniqueIdentifier>{5f9d4767-314f-45f5-8aad-7150f6911d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TransformationsHierarchy">
+      <UniqueIdentifier>{7b3c2ae2-efcd-48c3-9e5c-976c87379347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LabelsHierarchy">
+      <UniqueIdentifier>{fa428921-debb-495a-a815-3107741746fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DecoratorsHierarchy">
+      <UniqueIdentifier>{f83abf01-ee2d-4235-ab74-8dc176a20b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TransformationsHierarchy">
+      <UniqueIdentifier>{607d858a-6140-4d16-b147-b534828aed7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factories">
+      <UniqueIdentifier>{6b354ab3-eb97-47c8-8c03-323cc4755d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factories">
+      <UniqueIdentifier>{10b81c91-25cf-4522-9ee4-451328324fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers">
+      <UniqueIdentifier>{d4f8de56-1486-4b9c-984a-7c499570c360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Containers">
+      <UniqueIdentifier>{0df22fd4-f465-4808-a6bb-349f45c71709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{396b0bb5-7e2e-40da-85c5-74ef69baffe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LabelsHierarchy\PureLabels">
+      <UniqueIdentifier>{46be1011-fee4-483b-882b-83348bf87899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LabelsHierarchy\LabelImplementations">
+      <UniqueIdentifier>{0f6720d9-f023-4e83-9b31-19160f75e5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LabelsHierarchy\PureLabels">
+      <UniqueIdentifier>{00dce1fc-b54d-40a5-867e-4e38e49203be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LabelsHierarchy\LabelImplementation">
+      <UniqueIdentifier>{c16771bc-a7da-43cb-9aed-b8f6373cf861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{da785f4f-ae14-4618-82a7-10711d567050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{bab9a8c7-cf76-40c0-9e0c-2c9d4dbe70c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Project2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CyclingTransformationDecorator.cpp">
+      <Filter>Source Files\DecoratorsHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomTransformationDecorator.cpp">
+      <Filter>Source Files\DecoratorsHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTransformationDecorator.cpp">
+      <Filter>Source Files\DecoratorsHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelDecoratorBase.cpp">
+      <Filter>Source Files\DecoratorsHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="CapitalizeTransformation.cpp">
+      <Filter>Source Files\TransformationsHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="CenzoreTransformation.cpp">
+      <Filter>Source Files\TransformationsHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplaceTransformation.cpp">
+      <Filter>Source Files\TransformationsHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeTransformation.cpp">
+      <Filter>Source Files\TransformationsHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelImplementationFactory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelFactory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelContainer.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTransformationContainer.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTransformationFactory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftTrimTransformation.cpp">
+      <Filter>Source Files\TransformationsHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="RightTrimTransformation.cpp">
+      <Filter>Source Files\TransformationsHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="DecorateTransformation.cpp">
+      <Filter>Source Files\TransformationsHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalizeSpaceTransformation.cpp">
+      <Filter>Source Files\TransformationsHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Source Files\LabelsHierarchy\PureLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpLabel.cpp">
+      <Filter>Source Files\LabelsHierarchy\PureLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomLabel.cpp">
+      <Filter>Source Files\LabelsHierarchy\LabelImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="RichLabel.cpp">
+      <Filter>Source Files\LabelsHierarchy\LabelImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleLabel.cpp">
+      <Filter>Source Files\LabelsHierarchy\LabelImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="AppManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CenzoreTransformationFactory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CyclingTransformationDecorator.h">
+      <Filter>Header Files\DecoratorsHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelDecoratorBase.h">
+      <Filter>Header Files\DecoratorsHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomTransformationDecorator.h">
+      <Filter>Header Files\DecoratorsHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTransformationDecorator.h">
+      <Filter>Header Files\DecoratorsHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="CapitalizeTransformation.h">
+      <Filter>Header Files\TransformationsHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTransformation.h">
+      <Filter>Header Files\TransformationsHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="CenzoreTransformation.h">
+      <Filter>Header Files\TransformationsHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplaceTransformation.h">
+      <Filter>Header Files\TransformationsHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeTransformation.h">
+      <Filter>Header Files\TransformationsHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelImplementationFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTransformationFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelContainer.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTransformationContainer.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftTrimTransformation.h">
+      <Filter>Header Files\TransformationsHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="RightTrimTransformation.h">
+      <Filter>Header Files\TransformationsHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalizeSpaceTransformation.h">
+      <Filter>Header Files\TransformationsHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="DecorateTransformation.h">
+      <Filter>Header Files\TransformationsHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunctionalities.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuDisplay.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Header Files\LabelsHierarchy\PureLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpLabel.h">
+      <Filter>Header Files\LabelsHierarchy\PureLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomLabel.h">
+      <Filter>Header Files\LabelsHierarchy\LabelImplementations</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelImplementation.h">
+      <Filter>Header Files\LabelsHierarchy\LabelImplementations</Filter>
+    </ClInclude>
+    <ClInclude Include="RichLabel.h">
+      <Filter>Header Files\LabelsHierarchy\LabelImplementations</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleLabel.h">
+      <Filter>Header Files\LabelsHierarchy\LabelImplementations</Filter>
+    </ClInclude>
+    <ClInclude Include="AppManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassConstInvariants.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CenzoreTransformationFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumMenuOptions.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
