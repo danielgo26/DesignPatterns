@@ -1,0 +1,11 @@
+rectangle 4.62304 79.91
+circle 31.8017
+triangle 27.5707 54.06 70.5876
+circle 67.9818
+circle 44.2694
+rectangle 19.5166 71.1418
+circle 54.7318
+rectangle 78.6953 87.3535
+triangle 18.9499 37.5662 45.3176
+rectangle 19.8654 56.2505
+rectangle 4.62304 79.91
