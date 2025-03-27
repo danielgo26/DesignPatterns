@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="FileNodeTests.h">
+      <Filter>DirectoryHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderNodeTests.h">
+      <Filter>DirectoryHierarchy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="ReportFileOperatorTests.h">
+      <Filter>FileOperators</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DirectoryHierarchy">
+      <UniqueIdentifier>{d0137f21-b2ea-4c4c-bce1-48736f6898f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChecksumCalculators">
+      <UniqueIdentifier>{d09101d4-e1bb-4104-bd18-56bdaf9d7fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builders">
+      <UniqueIdentifier>{3997cd96-2b25-4b3f-bb12-76019157beae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileOperators">
+      <UniqueIdentifier>{649b3679-027d-4504-88cd-6f254b0e0e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observers">
+      <UniqueIdentifier>{bfe3a363-1e38-4b67-b488-640ab7b8e227}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChecksumCalculatorTests.h">
+      <Filter>ChecksumCalculators</Filter>
+    </ClInclude>
+    <ClInclude Include="BuilderWithoutLinksFollowingTests.h">
+      <Filter>Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="BuilderWithLinksFollowingTests.h">
+      <Filter>Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="HashFileOperatorTests.h">
+      <Filter>FileOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="ObservableTests.h">
+      <Filter>Observers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressReporterTests.h">
+      <Filter>Observers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
